@@ -25,17 +25,18 @@ This project explores real Twitter (now X) data to find patterns in social media
 
 ```
 viral_tweets/
-├── 📊 Data Files
+├── 📊 data/                   # Dataset files
 │   ├── random_tweets.json      # Random sample of tweets
 │   ├── new_york.json          # NYC location-specific tweets
 │   ├── london.json            # London location-specific tweets
 │   └── paris.json             # Paris location-specific tweets
-├── 📓 Main Project Notebooks
+├── 📓 notebooks/              # Main project notebooks
 │   ├── tweet_location.ipynb   # Location classification project
 │   └── viral_tweets.ipynb     # Virality prediction project
-└── 🔒 solution/               # ⚠️ Only open if really necessary!
-    ├── tweet_location_solution.ipynb
-    └── viral_tweets_solution.ipynb
+├── 🔒 solution/               # ⚠️ Only open if really necessary!
+│   ├── tweet_location_solution.ipynb
+│   └── viral_tweets_solution.ipynb
+└── README.md                  # Project documentation
 ```
 
 ## 🚀 Learning Objectives & Tasks
@@ -79,6 +80,20 @@ Follow these steps to complete your own viral tweets analysis journey:
 - **Scikit-learn** - Machine learning algorithms
 - **Jupyter Notebooks** - Interactive development environment
 - **Matplotlib/Seaborn** - Data visualization
+
+## 📂 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Tuminha/viral-tweets.git
+   cd viral-tweets
+   ```
+
+2. **Open the notebooks:**
+   - For location classification: `notebooks/tweet_location.ipynb`
+   - For virality prediction: `notebooks/viral_tweets.ipynb`
+
+3. **Note:** The notebooks are configured to read data from the `data/` directory using relative paths (`../data/filename.json`). Make sure to run the notebooks from within the `notebooks/` directory.
 
 ## 🎓 What You'll Learn
 
